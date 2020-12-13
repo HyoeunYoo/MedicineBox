@@ -7,7 +7,7 @@
 ---
 
 # Medicine Box - 서버
-#### 안드로이드 앱, 스마트 구급함과 REST API 통신
+안드로이드 앱, 스마트 구급함과 REST API 통신을 합니다.
 
 ## Program Stacks
 * JavaScript
