@@ -34,7 +34,7 @@
 
 ![hardware](https://user-images.githubusercontent.com/62014520/102005226-8acd6680-3d5a-11eb-9f93-bbba5e6f0823.png)
 
-* 
+* 회로도
 
 ![circuit_diagram](https://user-images.githubusercontent.com/62014520/102005228-8bfe9380-3d5a-11eb-8cbd-55238ca2c759.png)
 
