@@ -12,5 +12,7 @@
 ## Program Stacks
 * JavaScript
 * SQL
+* AWS EC2
+* AWS RDS
 * MariaDB
 * Node.js
