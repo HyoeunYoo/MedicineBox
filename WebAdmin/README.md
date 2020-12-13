@@ -44,7 +44,6 @@
 
 ## Program Stacks
 ### Client
-* JSP
 * HTML
 * CSS
 * JavaScript
@@ -55,3 +54,4 @@
 * AWS EC2
 * MariaDB
 * Java
+* JSP
