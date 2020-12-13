@@ -30,6 +30,14 @@
 
 잔여량 표시는 네오 픽셀을 이용하여 충분하면 녹색, 부족하면 빨간색, 적당하면 노란색을 표시합니다.
 
+* 하드웨어 구성도
+
+![hardware](https://user-images.githubusercontent.com/62014520/102005226-8acd6680-3d5a-11eb-9f93-bbba5e6f0823.png)
+
+* 
+
+![circuit_diagram](https://user-images.githubusercontent.com/62014520/102005228-8bfe9380-3d5a-11eb-8cbd-55238ca2c759.png)
+
 
 
 ## Program Stacks
