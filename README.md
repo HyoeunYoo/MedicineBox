@@ -23,6 +23,22 @@
 
 ---
 
+### 설계
+
+* 소프트웨어 구성도
+
+![software](https://user-images.githubusercontent.com/62014520/102004738-ab93bd00-3d56-11eb-90d5-243e72936960.png)
+
+* 하드웨어 구성도
+
+![hardware](https://user-images.githubusercontent.com/62014520/102005226-8acd6680-3d5a-11eb-9f93-bbba5e6f0823.png)
+
+* 데이터베이스
+
+![db](https://user-images.githubusercontent.com/62014520/102005484-712d1e80-3d5c-11eb-97e8-c78320be5fa1.png)
+
+---
+
 ### 주요 기능 시연
 
 * 약 복용
@@ -54,19 +70,3 @@
 ① 잔여량을 측정 중에는 LED가 여러 색상으로 돌아가고 슬롯의 뚜껑에 부착되어 있는 초음파 센서로 잔여량을 측정합니다.
 
 ② 측정이 완료되면 LED의 색상이 약이 매우 적으면 빨간색, 중간 양이면 노란색, 가득 차 있으면 녹색으로 설정됩니다. (사진에서는 모든 공간이 비어있는 상태이므로 모두 빨간색 LED가 들어왔습니다.)
-
----
-
-### 설계
-
-* 소프트웨어 구성도
-
-![software](https://user-images.githubusercontent.com/62014520/102004738-ab93bd00-3d56-11eb-90d5-243e72936960.png)
-
-* 하드웨어 구성도
-
-![hardware](https://user-images.githubusercontent.com/62014520/102005226-8acd6680-3d5a-11eb-9f93-bbba5e6f0823.png)
-
-* 데이터베이스
-
-![db](https://user-images.githubusercontent.com/62014520/102005484-712d1e80-3d5c-11eb-97e8-c78320be5fa1.png)
