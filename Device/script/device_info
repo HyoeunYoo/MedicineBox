@@ -1,0 +1,2 @@
+device_id="a0001"
+echo $device_id
