@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/auth_tvHotspotMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="디바이스 연결"
+        android:textSize="30sp"
+        android:textColor="#000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="60dp"
+        />
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/auth_tvHotspotMain"
+        app:layout_constraintBottom_toTopOf="@id/auth_btnHotspot"
+        app:layout_constraintWidth_percent="0.9"
+        app:layout_constraintHeight_percent="0.7"
+        app:layout_constraintVertical_bias="0.3"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="스마트폰 네트워크와 디바이스를 임시로 연결합니다.\n모바일 네트워크를 연결해주시고 핫스팟 설정을 해주세요."
+                    android:layout_marginTop="20sp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="・ 시스템 설정을 들어가서 모바일 핫스팟 또는 연결 > 모바일 핫스팟 설정을 들어가 주세요."
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="270dp"
+                    android:src="@drawable/hotspot1"
+                    android:layout_marginVertical="7dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="270dp"
+                    android:src="@drawable/hotspot2"
+                    android:layout_marginVertical="7dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="270dp"
+                    android:src="@drawable/hotspot3"
+                    android:layout_marginVertical="7dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="・ 핫스팟 이름과 패스워드를 아래와 같이 바꿔주세요"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1) 핫스팟 이름 : Medicinebox_[디바이스 ID]\n2) 비밀번호 : mdb_[디바이스 ID]
+                                        \n\t\tex) Medicinebox_a0001 / mdb_a0001"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="・ 핫스팟설정을 마치고 핫스팟을 켜신 다음, \n\t\t\t디바이스의 버튼을 3초 이상 길게 눌러주세요"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3)에 'raspberrypi'가 나타났는지 확인하세요."
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="5dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="320dp"
+                    android:src="@drawable/hotspot4"
+                    android:layout_marginVertical="7dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="・ 만약 디바이스가 연결되지 않는다면 위의 화면에서 메뉴(4)>모바일 핫스팟 설정들 들어가서 '내 디바이스 숨기기'가 체크 해제되었는지 확인하신 후,
+                                    디바이스의 버튼을 다시 3초 이상 눌러주세요.\n그래도 연결이 안된다면 디바이스를 재부팅 후에 다시 시도하세요."
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="270dp"
+                    android:src="@drawable/hotspot5"
+                    android:layout_marginVertical="7dp"
+                    />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/auth_btnHotspot"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="다음"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:background="@drawable/button_select"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginBottom="20dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

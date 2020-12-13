@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_cycle">
+        <item>1일</item>
+        <item>2일</item>
+        <item>3일</item>
+        <item>4일</item>
+        <item>5일</item>
+        <item>6일</item>
+        <item>7일</item>
+        <item>8일</item>
+        <item>9일</item>
+        <item>10일</item>
+    </string-array>
+
+    <string-array name="array_perday">
+        <item>1번</item>
+        <item>2번</item>
+        <item>3번</item>
+    </string-array>
+
+    <string-array name="array_slot">
+        <item>1번</item>
+        <item>2번</item>
+        <item>3번</item>
+        <item>4번</item>
+        <item>5번</item>
+        <item>6번</item>
+        <item>7번</item>
+    </string-array>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/auth_wifi_baselayout">
+
+    <TextView
+        android:id="@+id/auth_tvWifiMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="와이파이 정보 입력"
+        android:textSize="30dp"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="@id/auth_edtWifi"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wi-Fi의 이름은 영문과 숫자로 이루어져야 합니다.\n디바이스와 휴대폰을 가까이 하세요."
+        app:layout_constraintStart_toStartOf="@id/auth_edtWifi"
+        app:layout_constraintTop_toBottomOf="@id/auth_tvWifiMain"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wi-Fi"
+        android:textSize="20dp"
+        android:textColor="#000"
+        app:layout_constraintLeft_toLeftOf="@id/auth_edtWifi"
+        app:layout_constraintBottom_toTopOf="@id/auth_edtWifi"
+        />
+    <EditText
+        android:id="@+id/auth_edtWifi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="와이파이 이름을 압력해주세요"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintTop_toBottomOf="@id/auth_tvWifiMain"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/auth_tvWifiDeviceMain"
+        app:layout_constraintVertical_bias="0.5"
+        android:singleLine="true"
+        android:nextFocusDown="@id/auth_edtPasswd"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textSize="20dp"
+        android:textColor="#000"
+        app:layout_constraintLeft_toLeftOf="@id/auth_edtWifi"
+        app:layout_constraintTop_toBottomOf="@id/auth_edtWifi"
+        app:layout_constraintBottom_toTopOf="@id/auth_edtPasswd"
+        />
+    <EditText
+        android:id="@+id/auth_edtPasswd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호를 압력해주세요"
+        android:inputType="textPassword"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintTop_toBottomOf="@id/auth_edtWifi"
+        app:layout_constraintLeft_toLeftOf="@id/auth_edtWifi"
+        app:layout_constraintRight_toRightOf="@id/auth_edtWifi"
+        app:layout_constraintBottom_toTopOf="@id/auth_tvWifiDeviceMain"
+        app:layout_constraintVertical_bias="0.5"
+        android:singleLine="true"
+        android:nextFocusDown="@id/auth_edtDeviceId"
+        />
+
+    <TextView
+        android:id="@+id/auth_tvWifiDeviceMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="디바이스 정보 입력"
+        android:textSize="30dp"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="@id/auth_edtWifi"
+        app:layout_constraintTop_toBottomOf="@id/auth_tvWifiMain"
+        app:layout_constraintBottom_toTopOf="@id/auth_btnWifi"
+        app:layout_constraintVertical_bias="0.55"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="디바이스에 적힌 디아비스 ID를 입력해 주세요"
+        app:layout_constraintStart_toStartOf="@id/auth_edtWifi"
+        app:layout_constraintTop_toBottomOf="@id/auth_tvWifiDeviceMain"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEVICE ID"
+        android:textSize="20dp"
+        android:textColor="#000"
+        app:layout_constraintLeft_toLeftOf="@id/auth_edtDeviceId"
+        app:layout_constraintBottom_toTopOf="@id/auth_edtDeviceId"
+        />
+    <EditText
+        android:id="@+id/auth_edtDeviceId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="다바이스 ID를 압력해주세요"
+        app:layout_constraintTop_toBottomOf="@id/auth_tvWifiDeviceMain"
+        app:layout_constraintBottom_toTopOf="@id/auth_btnWifi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintVertical_bias="0.6"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        />
+
+    <Button
+        android:id="@+id/auth_btnWifi"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="다음"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:background="@drawable/button_select"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginBottom="20dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

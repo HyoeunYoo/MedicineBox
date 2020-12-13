@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1010312426428",
+    "firebase_url": "https://drug-box-4a3d8.firebaseio.com",
+    "project_id": "drug-box-4a3d8",
+    "storage_bucket": "drug-box-4a3d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010312426428:android:280ba79c4086efd26871b9",
+        "android_client_info": {
+          "package_name": "com.example.medicinebox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010312426428-ao6prok19cn5jp7n338vitggik5rgelb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuvkLS1jSm8k0XPdwitNdEAUjX26A2Wzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010312426428-ao6prok19cn5jp7n338vitggik5rgelb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
