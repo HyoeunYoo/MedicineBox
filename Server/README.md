@@ -9,10 +9,6 @@
 # Medicine Box - 서버
 #### 안드로이드 앱, 스마트 구급함과 REST API 통신
 
-* 소프트웨어 구성도
-
-![software](https://user-images.githubusercontent.com/62014520/102004738-ab93bd00-3d56-11eb-90d5-243e72936960.png)
-
 ## Program Stacks
 * JavaScript
 * SQL
