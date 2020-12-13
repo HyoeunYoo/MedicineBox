@@ -47,6 +47,10 @@
 
 ![software](https://user-images.githubusercontent.com/62014520/102004738-ab93bd00-3d56-11eb-90d5-243e72936960.png)
 
+* 하드웨어 구성도
+
+![hardware](https://user-images.githubusercontent.com/62014520/102005226-8acd6680-3d5a-11eb-9f93-bbba5e6f0823.png)
+
 * 데이터베이스
 
 ![db](https://user-images.githubusercontent.com/62014520/102005484-712d1e80-3d5c-11eb-97e8-c78320be5fa1.png)
