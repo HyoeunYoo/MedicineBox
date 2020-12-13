@@ -86,4 +86,32 @@
 
 현재 개발된 시스템에서는 한 번 복용한 약을 재복용 하지 못하도록 막아주는 기능이 부재합니다. 이를 개선하면 과다 복용에 대한 해결책이 될 것입니다. 또 인공지능 음성인식 기술을 도입하여 스마트 구급함을 업그레이드하고 기능을 확장 시킨다면 음성으로 약을 제공받거나 복용 확인을 확인할 수 있어 향후 높은 발전 가능성을 보입니다.
 
+---
 
+## Program Stacks
+### Web
+* Java
+* JSP
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Bootstrap
+
+### App
+* Android 8.0.0 (Oreo)
+* Java
+* 공공데이터포털 open API
+
+### Device
+* Raspberry Pi 4
+* python
+* bash
+
+### Server
+* JavaScript
+* SQL
+* AWS EC2
+* AWS RDS
+* MariaDB
+* Node.js
